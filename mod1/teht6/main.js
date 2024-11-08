@@ -18,7 +18,7 @@ const choice =  confirm("Should I calculate the square root?")
 
 let return_line;
 
-if (choice == true) {
+if (choice) {
     const num = parseInt(prompt("Number: "))
 
     if (0 >= num) {

@@ -18,7 +18,7 @@ const operation = document.querySelector('#operation')
 
 const result = document.querySelector('#result')
 
-button = document.querySelector('#start')
+const button = document.querySelector('#start')
 
 function calculator( num1,num2,operation) {
 

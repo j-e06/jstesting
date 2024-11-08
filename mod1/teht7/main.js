@@ -11,7 +11,7 @@ const amount_of_rolls = parseInt(prompt("Amount of dice rolls: "))
 let sum = 0;
 
 for (let i =1; i <= amount_of_rolls; i++) {
-    var dice_roll = Math.floor(Math.random() * 6);
+    const dice_roll = Math.floor(Math.random() * 6);
     sum += dice_roll;
     console.log(dice_roll);
 }

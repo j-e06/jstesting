@@ -14,7 +14,7 @@
 
 function concat(strings) {
     let long_string = "";
-    for (string of strings){
+    for (let string of strings){
         long_string += string
     }
     return long_string
